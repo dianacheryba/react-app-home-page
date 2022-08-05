@@ -1,0 +1,101 @@
+.searchContainer {
+  display: flex;
+  padding-left: 18px;
+  padding-right: 15px;
+}
+
+.searchIconContainer {
+  display: flex;
+  cursor: pointer;
+  padding-bottom: 29px;
+  border-bottom: 3px solid #fff;
+}
+
+.searchIconContainerActive,
+.searchIconContainer:hover {
+  border-bottom: 3px solid #4296cb;
+}
+
+.searchIcon {
+  display: flex;
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.menuSearchDropdownContainer {
+  position: absolute;
+  left: 0px;
+  background: #313443;
+  width: 100%;
+  display: block;
+  height: 150px;
+  top: 110px;
+  z-index: 100;
+  border-bottom: 1px solid #7b7f92;
+}
+
+.menuSearchDropdown {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 50px;
+}
+
+.menuSearchDropdownForm {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 0;
+  width: calc(100% - 40px);
+  max-width: 559px;
+  position: relative;
+}
+
+.menuSearchDropdownFormInput {
+  color: white;
+  width: 100%;
+  height: 11px;
+  padding: 20px 28px 20px 0;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  border: 1px solid #ced1db;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-color: #4e5262;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 0px;
+  cursor: text;
+}
+
+.menuSearchDropdownFormInput:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #a7aabb;
+  line-height: 32px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.menuSearchDropdownFormButton {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  right: -25px;
+  top: 25%;
+  background: none;
+}
+
+.searchIconWhite {
+  color: #fff;
+  font-size: 20px;
+}
+
+.srOnly {
+  display: none;
+}

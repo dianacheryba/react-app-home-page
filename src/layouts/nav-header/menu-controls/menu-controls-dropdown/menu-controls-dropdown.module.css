@@ -1,0 +1,58 @@
+.menuControlsDropdown {
+  position: absolute;
+  border-right: 1px solid #7b7f92;
+  border-left: 1px solid #7b7f92;
+  border-bottom: 1px solid #7b7f92;
+  background-color: #313443;
+  z-index: 100;
+  width: 180px;
+  height: 258px;
+  cursor: auto;
+  padding: 30px 31px 41px 31px;
+}
+
+.menuControlsDropdownTitle {
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.menuControlsDropdownDescription {
+  color: #ced1db;
+  padding-bottom: 24px;
+  font-size: 12.5px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #f0f4f6;
+  padding: 12px 28px 10px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.btn.main {
+  border-color: transparent;
+  background: #4296cb;
+  margin-bottom: 24px;
+}
+
+.btn.signIn {
+  border-color: #4296cb;
+}
+
+.btn:hover {
+  background: linear-gradient(46deg, #2eb7ce 0%, #4296cb 100%);
+}

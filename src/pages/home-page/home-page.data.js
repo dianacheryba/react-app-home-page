@@ -1,0 +1,98 @@
+export const pagesBlocks = [
+  {
+    id: 'workouts',
+    title: 'Workout Videos',
+    description: 'Exercise with certified personal trainers whether you’re at home or on the road.',
+    url: 'https://www.fitnessblender.com/videos',
+    callToAction: 'Find a Workout',
+    src: 'https://cloudfront.fitnessblender.com/assets/img/homepage/workouts-1440.png',
+    alt: 'Tasha doing a Fitness Blender workout video',
+  },
+  {
+    id: 'programs',
+    title: 'Programs',
+    description: 'Professionally designed programs take the guesswork out of exercising.',
+    url: 'https://www.fitnessblender.com/plans',
+    callToAction: 'Browse All Programs',
+    src: 'https://cloudfront.fitnessblender.com/assets/img/homepage/programs-1440.png',
+    alt: 'Stacked cards of Fitness Blender workout program',
+  },
+  {
+    id: 'articles',
+    title: 'Wellness Articles',
+    description: 'Research-backed articles to help you care for your body and mind.',
+    url: 'https://www.fitnessblender.com/articles',
+    callToAction: 'Learn from Experts',
+    src: 'https://cloudfront.fitnessblender.com/assets/img/homepage/articles-1440.png',
+    alt: 'Person reading articles on laptop',
+  },
+  {
+    id: 'recipes',
+    title: 'Healthy Recipes',
+    description: 'Fuel your day with recipes by Registered Dietitians and professional chefs.',
+    url: 'https://www.fitnessblender.com/healthy-living/healthy-recipes',
+    callToAction: 'Find a Recipe',
+    src: 'https://cloudfront.fitnessblender.com/assets/img/homepage/recipes-1440.png',
+    alt: 'Noodle and tomato dish',
+  },
+  {
+    id: 'community',
+    title: 'Supportive Community',
+    description: 'Stay motivated and engaged with a little help from a supportive community of other members.',
+    url: 'https://www.fitnessblender.com/membership',
+    callToAction: 'Become a Member',
+    src: 'https://cloudfront.fitnessblender.com/assets/img/homepage/community-1440.png',
+    alt: 'Group on outdoor hike',
+  },
+];
+
+export const products = [
+  {
+    id: 'perfect-for-beginners',
+    title: 'Perfect for Beginners',
+    url: 'https://www.fitnessblender.com/plans/fb-low-impact-round-2-fat-loss-program-40-minutes-or-less',
+    isExclusive: true,
+    imageUrl:
+      'https://d18zdz9g6n5za7.cloudfront.net/plan/640/640-o_31_fb-low-impact-round-2-fat-loss-program-40-minutes-or-less.jpg',
+    imageAlt: 'FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less',
+    cardTitle: '4 WEEK PROGRAM - 34 MIN/DAY',
+    cardDescription: 'B Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less',
+    price: '$14.99',
+  },
+  {
+    id: 'you-choose',
+    title: 'You Choose',
+    url: 'https://www.fitnessblender.com/plans/4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day',
+    isExclusive: false,
+    imageUrl:
+      'https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_29_4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day.jpg',
+    imageAlt: 'FB Blend - Burn Fat, Build Muscle, Tone; 35 or 55 Minutes a Day',
+    cardTitle: '4 WEEK PROGRAM - 38 MIN/DAY',
+    cardDescription: 'FB Blend - Burn Fat, Build Muscle, Tone; 35 or 55 Minutesa Day',
+    price: '$14.99',
+  },
+  {
+    id: 'short-on-time',
+    title: 'Short on Time?',
+    url: 'https://www.fitnessblender.com/plans/fb-30-4-week-fat-loss-program-for-busy-people-round-4',
+    isExclusive: false,
+    imageUrl:
+      'https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_28_fb-30-4-week-fat-loss-program-for-busy-people-round-4.jpg',
+    imageAlt: 'FB 30 - Fat Loss Program For Busy People (Round 4)',
+    cardTitle: '4 WEEK PROGRAM - 30 MIN/DAY',
+    cardDescription: 'FB 30 - Fat Loss Program For Busy People (Round 4)',
+    price: '$14.99',
+  },
+  {
+    id: 'no-equipment-necessary',
+    title: 'No Equipment Necessary',
+    url: 'https://www.fitnessblender.com/plans/fitness-blenders-4-week-bodyweight-only-fat-loss-program',
+    isExclusive: false,
+    imageUrl:
+      'https://d18zdz9g6n5za7.cloudfront.net/plan/320/320-o_7_fb-bodyweight-bodyweight-only-fat-loss-program.jpg',
+    imageAlt: 'FB Bodyweight - Bodyweight Only Fat Loss Program',
+    cardTitle: '4 WEEK PROGRAM - 40 MIN/DAY',
+    cardDescription: 'FB Bodyweight - Bodyweight Only Fat Loss Program',
+    price: '$14.99',
+  },
+];

@@ -1,0 +1,80 @@
+.cards {
+  display: flex;
+  margin: 20px -4px;
+}
+
+.cardContainer {
+  width: 25%;
+}
+
+.title {
+  margin: 10px 0 11px 0;
+  font-size: 16px;
+  color: #212432;
+}
+
+.card {
+  padding: 3px;
+  transition-duration: 0.7s;
+}
+
+.card:hover {
+  background: #4296cb;
+  transition-duration: 0.7s;
+}
+
+.details {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  text-decoration: none;
+  min-height: 360px;
+  max-width: 295px;
+}
+
+.exclusiveProduct {
+  position: absolute;
+  right: 0;
+  background: #3cdbb8;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  text-shadow: 0px 0px 3px rgb(0 0 0 / 20%);
+  padding: 5px 10px;
+  border-radius: 0 0 0 6px;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  z-index: 1;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.cardTitle {
+  display: block;
+  letter-spacing: 0.8px;
+  padding: 17px 24px 5px 24px;
+  color: #4296cb;
+  font-size: 11px;
+}
+
+.cardDescription {
+  color: #2c2e3a;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 6.5px 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.price {
+  position: absolute;
+  bottom: 0px;
+  width: 91.5%;
+  padding: 10px 14px;
+  color: #222533;
+  font-weight: bold;
+  font-size: 11px;
+}

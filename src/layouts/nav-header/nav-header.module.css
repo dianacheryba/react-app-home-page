@@ -1,0 +1,22 @@
+.navHeaderContainer {
+  display: flex;
+  width: 1200px;
+  padding: 0 120px;
+  background: #fff;
+}
+
+.logo {
+  margin: 0 10px 34px 0;
+  align-self: flex-end;
+}
+
+.logo a {
+  display: block;
+  width: 156px;
+  height: 45px;
+  background: url(./../../assets/images/fb-logo.svg);
+}
+
+.srOnly {
+  display: none;
+}
